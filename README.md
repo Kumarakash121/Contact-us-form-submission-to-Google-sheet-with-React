@@ -1,3 +1,12 @@
+
+
+In this project we need to go to  https://sheet.best/admin and then create a connection using connection button and it will open a form which asks for your google spreadsheets url paste the sheet url in the connection form and create connection then it will generate the api which will be used to make the CRUD operation on integrated Spreadsheet and we will use this api in the react code to make axios/fetch request .In react I am using form for creating contact us form and then using states make sure to store the states of name,email,phone,message and the use that data to make post request with that api of https://sheet.best/admin  and see that data inside the spreadsheet. I have also used the validation for email and phone number.And integrate a submit button which indicates that data is succesfully saved inside sheet.Hosted this project on netlify using build of my project. A responsive UI is build for this web app.Build created using npm run build
+
+
+My live Project URL->  https://65e84ab9314708fb25d55b47--delicate-brioche-8e59dd.netlify.app/
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -65,6 +74,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
